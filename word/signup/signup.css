@@ -1,0 +1,92 @@
+a:link {color:#000;}
+a:visited {color:#000;}
+a:hover {color:#000;}
+a:active {color:#000;}
+.fish{
+    border: 0px solid #000;
+    position: relative;
+    float: left;
+}
+.daohang{
+    border: 0px solid #000;
+    position: relative;
+    float: right;
+}
+.n1{
+    width: 50%;
+    float: left;
+}
+.n2{
+    width: 50%;
+    float: right;
+}
+.t0{
+    height: 42px;
+    
+}
+.t1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 240;
+    position: relative;
+    top: 10px;
+}
+.t2{
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+.t2 a{
+    color:#47adc2;
+}
+.tb{
+    width: 80%;
+    margin: 0px auto;
+    border: 0px solid #000;
+    position: relative;
+    top: 55px;
+}
+.in{
+    text-align: center;
+}
+.tb button{
+    outline: none;
+}
+.signupbtn{
+    outline: none;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-color: #f0ffff;
+    color: #47adc2;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.alert{
+    width: 90%;
+    height: 130px;
+    text-align: center;
+    border: 0px solid #000;
+    position: absolute;
+    top: 55px;
+    z-index: 9999;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.alert span{
+    padding: 20px;
+    font-size: 30px;
+}
+.alert button{
+    outline: none;
+    padding: 5px;
+    width: 40%;
+    position: relative;
+    top: 20px;
+    background-color: #f0ffff;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

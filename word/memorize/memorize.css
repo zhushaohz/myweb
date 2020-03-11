@@ -1,0 +1,26 @@
+a:link {color:#000;}
+a:visited {color:#000;}
+a:hover {color:#000;}
+a:active {color:#000;}
+.fish{
+    border: 0px solid #000;
+    position: relative;
+    float: left;
+}
+.daohang{
+    border: 0px solid #000;
+    position: relative;
+    display: inline;
+}
+.n1{
+    width: 50%;
+    float: left;
+}
+.n2{
+    width: 50%;
+    float: right;
+}
+.t0{
+    height: 42px;
+    
+}

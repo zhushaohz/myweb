@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link href="chat.css?v=1989" rel="stylesheet" type="text/css"/>
+
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="chat.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm"></nav>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand btn" role="button" href="https://zhzzf.wang">
+            <img src="https://zhzzf.wang/home.png" class="tubiao">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                    <a class="nav-link" href="#">search</a>
+               </li>
+            </ul>
+        </div>  
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="talk_con">
+                    <div class="talk_show" id="words">
+                        <div class="atalk"><span id="asay">A说：吃饭了吗？</span></div>
+                        <div class="btalk"><span id="bsay">B说：还没呢，你呢？</span></div>
+                        <div class="talk">
+                        <div class="talkhead small">
+                            <span id="rname"></span>
+                            <span id="rtime"></span>
+                        </div>
+                        <div class="talkbody"><span id="rtext"></span></div>
+                        </div>
+                    </div>
+                    <div class="talk_input">
+                        <span>昵称</span>
+                        <input type="text" class="whotalk" id="who">
+                        <input type="text" class="talk_word" id="talkwords">
+                        
+                        <button class="talk_sub" id="talksub">发送</button>
+                    </div>
+                </div>
+
+
+                
+                
+            </div>
+            <div class="col-md-6 d-none d-sm-block">
+                <img class="zzf" src="https://zhzzf.wang/picture/zzf3.png">
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+a:link {color:#000;}
+a:visited {color:#000;}
+a:hover {color:#000;}
+a:active {color:#000;}
+.fish{
+    border: 0px solid #000;
+    position: relative;
+    float: left;
+}
+.daohang{
+    border: 0px solid #000;
+    position: relative;
+    display: inline;
+}
+.n1{
+    width: 50%;
+    float: left;
+}
+.n2{
+    width: 50%;
+    float: right;
+}
+.t0{
+    height: 42px;
+    
+}
+.out{
+    position: relative;
+    top: 40px;
+    border: 0px solid #000;
+    text-align: center;
+}
+.out a{
+    padding-top: 5px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5px;
+    border: 0px solid #000;
+    border-radius: 4px;
+    box-shadow:0 0 20px #666;
+}
+.out a:link{text-decoration:none;}
+.out a:visited{text-decoration:none;}
+.out a:hover{text-decoration:none;}
+.out a:active{text-decoration:none;}

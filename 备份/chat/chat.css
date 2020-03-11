@@ -1,0 +1,86 @@
+body{
+    padding-top: 1em;
+
+}
+.tubiao{
+    width: 25px;
+    height: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.talk_con{
+    width:100%;
+    height:600px;
+    border:1px solid #666;
+    margin:50px auto 0;
+    background:#f9f9f9;
+}
+.talk_show{
+    width:95%;
+    height:470px;
+    border:1px solid #666;
+    background:#fff;
+    margin:10px auto 0;
+    overflow:auto;
+}
+.talk_input{
+    width:98%;
+    margin:10px auto 0;
+}
+.whotalk{
+    width:70%;
+    height:30px;
+    
+    margin-left:10px;
+    outline:none;
+    border:1px;
+    border-radius:8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.talk_word{
+    width:70%;
+    height:30px;
+    padding:0px;
+    float:left;
+    margin-top: 10px;
+    margin-left:10px;
+    outline:none;
+    border:1px;
+    border-radius:6px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-indent:10px;
+}        
+.talk_sub{
+    width:56px;
+    height:30px;
+    
+    margin-top: 10px;
+    margin-left:10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.atalk{
+    margin:10px; 
+}
+ .atalk span{
+    display:inline-block;
+    background:#0181cc;
+    border-radius:10px;
+    color:#fff;
+    padding:5px 10px;
+}
+.btalk{
+    margin:10px;
+    text-align:right;
+}
+.btalk span{
+    display:inline-block;
+    background:#ef8201;
+    border-radius:10px;
+    color:#fff;
+    padding:5px 10px;
+}
+.talk{
+    border:1px solid #666;
+}

@@ -1,0 +1,43 @@
+.card-body img{
+    padding-left: 30px;
+    width: 130px;
+    height: auto;
+}
+.zhu{
+    padding-left: 43px;
+    padding-top: 10px;
+}
+.jiaoyu{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.liuji{
+    padding-top: 10px;
+}
+.youbianju{
+    padding-right: 15px;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+a:link {color:#000;}	
+
+.hang{
+    height: 10px;
+    border:0;
+}
+.phone{
+    width: 70%;
+    height: auto;
+    
+}
+.diyilie{
+    width: 18%;
+    text-align:right;
+}
+.dierlie{
+    text-align: left;
+    font-size: 90%;
+}

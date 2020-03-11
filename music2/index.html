@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link href="music.css?v=0008" rel="stylesheet" type="text/css"/>
+
+    <link rel="shortcut icon" href="music.ico" />
+
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    
+</head>
+<body>
+    <script color="57,174,169" opacity="0.5" count="99" zIndex="-1" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.js" type="text/javascript" charset="utf-8"></script>
+    
+
+    
+    <a class="home" type="button" href="../">
+        <img src="homemusic.png" class="tubiao">
+    </a>
+    
+    
+    
+    <div class="musicku">
+        <button type="button" data-toggle="collapse" data-target="#demo">乐库</button>
+    </div>
+    <div id="demo" class="collapse musiclist">
+        <div>
+            <table class="listtbl">
+                <tr>
+                    <td>aaa</td>
+                </tr>
+                <tr>
+                    <td>aaa</td>
+                </tr>
+                <tr>
+                    <td>aaa</td>
+                </tr>
+            </table>
+    
+        </div>
+    
+    </div>
+        
+
+    
+
+    <div class="container">
+        <div class="player">
+            
+            <audio>
+                <source id="musicid" src="http://music.163.com/song/media/outer/url?id=1355147933.mp3" type="audio/mp3">
+            </audio>
+            <div class="audio2">
+                <p class="musicname" id="musicname">西奥Sio - Vancci</p>
+                <div class="progress-bar-bg" id="progressbarbg">
+                    <span id="progressdot"></span>
+                    <div class="progress-bar" id="progressbar"></div>
+                </div>
+                <div class="audio-time"><span class="audio-length-current" id="audiocurtime">00:00</span><span class="audio-length-total" id="totaltime">00:00</span></div>
+            </div>
+            <div class="control">
+                <div class="audio5"><img id="playway" src="liebiaoxunhuan.png"></div>
+                <div class="audio6"><img id="last" src="next2.png"></div>
+                <div class="audio1"><img id="audioPlayer" src="play.png"></div>
+                <div class="audio7"><img id="next" src="next.png"></div>
+                <div class="audio3">
+                <img id="audiomuted" src="laba.png">
+                </div>
+            </div>
+            
+        </div>
+        <p>&nbsp;</p>
+        <div class="geci" id="gecicard" onselectstart="return false;" unselectable="on">
+            <p id="geci">&nbsp;</p>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="music.js"></script>
+    
+</body>
+</html>

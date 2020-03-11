@@ -1,0 +1,28 @@
+body{
+    padding-top: 3em;
+
+}
+.tubiao{
+    width: 25px;
+    height: auto;
+}
+.zzf{
+    width: 100%;
+    height: auto;
+}
+.mulu{
+    width: 70%;
+    margin-left: 15px;
+}
+.mulu h2{
+    color:#508da3;
+}
+
+.mulucolor a:link {color:#508da3;}
+.mulucolor a:visited {color:#508da3;}
+.mulucolor a:hover {color:#5b7fa7;}
+.mulucolor a:active {color:#5b7fa7;}
+.carousel-item img{
+    width: 100%;
+
+}

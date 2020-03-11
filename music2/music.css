@@ -1,0 +1,235 @@
+body{
+    
+    background-color: #e0ffff;
+    user-select: none;
+}
+.home{
+    border: 0px solid #000;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+.tubiao{
+    width: 35px;
+    height: auto;
+}
+img{
+    width: 100%;
+}
+
+.musicku{
+    width: auto;
+    border: 0px solid #000;
+    
+    position: absolute;
+    top: 30px;
+    left: 110px;
+}
+.musicku button{
+    outline: none;
+    width: 70px;
+    height: 35px;
+    background-color: #39aea9;
+    color: #fff;
+    border: 0px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #557b83;
+}
+.musiclist{
+    width: 250px;
+    position: absolute;
+    top:80px;
+    left: 25px;
+    background-color: #e0ffff;
+    border: 1px solid #557b83;
+    border-radius: 10px;
+    z-index: 9999;
+}
+.listtbl{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    color:#557b83;
+}
+
+.player{
+    width: 90%;
+    height: 150px;
+    margin: 5px auto;
+    max-width: 600px;
+    position: relative;
+    top: 390px;
+    background-color: #e0ffff;
+    border: 1px solid #e0ffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #557b83;
+}
+.audio1{
+    width: 20%;
+    height: 63px;
+    float: left;
+    position: relative;
+    left: 4%;
+    text-align: center;
+    border: 0px solid #d9d9d9;
+}
+.audio1 img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: 6px;
+}
+.audio2{
+    
+    width: 94%;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 3%;
+    border: 0px solid #d9d9d9;
+}
+.audio2 p{
+    font-size: 15px;
+    color: #557b83;
+    height: 35%;
+    margin: 8px 0;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.progress-bar-bg{
+    background-color: #d9d9d9;
+    position: relative;
+    height: 2px;
+    cursor: pointer;
+}
+.progress-bar{
+    background-color: #39aea9;
+    width: 0;
+    height: 2px;
+}
+.progress-bar-bg span{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    background-color: #557b83;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+.audio-time{
+    overflow: hidden;
+    margin-top: -1px;
+}
+.audio-length-total{
+    float: right;
+    font-size: 12px;
+
+}
+.audio-length-current{
+    float: left;
+    font-size: 12px;
+}
+.audio3{
+    width: 18%;
+    height: 63px;
+    float: right;
+    text-align: center;
+    border: 0px solid #d9d9d9;
+}
+.audio3 img{
+    width: 33px;
+    height: auto;
+    position: relative;
+    top: 16px;
+    right: 0px;
+}
+.audio4{
+    border: 0px solid #d9d9d9;
+    height: 335px;
+    text-align: center;
+}
+.audio4 img{
+    width: 100%;
+    
+    max-width: 325px;
+    transition: all 25s;
+    transform: rotateZ(280deg);
+}
+.control{
+    text-align: center;
+}
+.audio5{
+    width: 18%;
+    height: 63px;
+    float: left;
+    text-align: center;
+    
+    border: 0px solid #d9d9d9;
+}
+.audio6{
+    width: 18%;
+    height: 63px;
+    float: left;
+    position: relative;
+    left: 2%;
+    text-align: center;
+    border: 0px solid #d9d9d9;
+}
+.audio7{
+    width: 18%;
+    height: 63px;
+    float: left;
+    position: relative;
+    left: 6%;
+    text-align: center;
+    border: 0px solid #d9d9d9;
+}
+
+.audio5 img{
+    width: 30px;
+    position: relative;
+    top: 16px;
+}
+.audio6 img{
+    width: 45px;
+    position: relative;
+    top: 10px;
+}
+.audio7 img{
+    width: 45px;
+    position: relative;
+    top: 10px;
+}
+.pinpu{
+    position: relative;
+    left: 5%;
+    margin: 10px auto;
+    width: 90%;
+    height: 500px;
+    border: 1px solid #d9d9d9;
+}
+.geci{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 80%;
+    height: 150px;
+    border: 1px solid #557b83;
+    border-radius: 30px;
+    margin: 0 auto;
+    z-index: 9999;
+}
+.geci p{
+    font-size: 50px;
+    color: #557b83;
+    margin-left: 10px;
+    font-family: Microsoft Yahei;
+}

@@ -1,0 +1,64 @@
+a:link {color:#000;}
+a:visited {color:#000;}
+a:hover {color:#000;}
+a:active {color:#000;}
+
+.fish{
+    border: 0px solid #000;
+    position: relative;
+    float: left;
+}
+.daohang{
+    border: 0px solid #000;
+    position: relative;
+    display: inline;
+}
+.n1{
+    width: 50%;
+    float: left;
+}
+.n2{
+    width: 50%;
+    float: right;
+}
+.t0{
+    height: 42px;
+    
+}
+.t1{
+    border: 0px solid #000;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 240;
+    
+}
+.start{
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+.start a{
+    font-size: 30px;
+    padding: 20px;
+    border: 0px solid #000;
+    border-radius: 20px;
+    box-shadow:0 0 20px #666;
+}
+.start a:link{text-decoration:none;}
+.start a:visited{text-decoration:none;}
+.start a:hover{text-decoration:none;}
+.start a:active{text-decoration:none;}
+.tb{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.tb select{
+    outline: none;
+    width: 80%;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+}
